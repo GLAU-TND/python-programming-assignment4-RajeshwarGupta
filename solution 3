@@ -1,0 +1,7 @@
+z=input()
+st=eval(input())
+s=set()
+for k in st:
+  if z==k[0:len(z)]:
+    s.add(k)
+print(s)
